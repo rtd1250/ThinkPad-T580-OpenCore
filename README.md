@@ -5,6 +5,7 @@ Status:
 | component | status |
 | -- | -- |
 | WiFi | Working |
+| Bluetooth | Working |
 | Audio | Working |
 | Ethernet | Working |
 | GPU Acceleration | Working |
@@ -12,7 +13,6 @@ Status:
 | USB | Working |
 | Keyboard/Touchpad | Working |
 | Sleep | Working |
-| Bluetooth | Broken |
 | Battery | Broken |
 
 ## ACPI
@@ -80,6 +80,8 @@ PS/2 keyboard+mouse support:
 | --- | ---- | ----- |
 | boot-args | string | alcid=11 |
 | prev-lang:kbd | string | pl-PL:30788 |
+| bluetoothInternalControllerInfo | data | 00000000 00000000 00000000 0000 |
+| bluetoothExternalDongleFailed | data | 00 |
 
 ### PlatformInfo
 MBP14,1
