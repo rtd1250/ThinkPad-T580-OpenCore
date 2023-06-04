@@ -12,10 +12,11 @@ Status:
 | Backlight | Working |
 | USB | Working |
 | Keyboard/Touchpad | Working |
+| Dual Battery | Working |
 | Sleep | Working |
-| Battery | Broken |
 
 ## ACPI
+- Battery: SSDT-BATC (compiled manually), custom SSDT-DBAT
 - CPU: SSDT-PLUG (compiled manually)
 - EC: SSDT-USBX (precompiled)
 - Backlight: SSDT-PNLF (compiled manually)
@@ -44,6 +45,10 @@ PS/2 keyboard+mouse support:
 | Other | Lilu.kext<br/>VirtualSMC.kext<br/>SMCBatteryManager.kext<br/>SMCLightSensor.kext<br/>SMCProcessor.kext<br/>SMCSuperIO.kext |
 
 ## config.plist
+
+### ACPI/Patch
+
+See BATC-Patch.plist
 
 ### DeviceProperties
 - PciRoot(0x0)/Pci(0x2,0x0)
