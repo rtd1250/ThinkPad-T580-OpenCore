@@ -90,6 +90,7 @@ See BATC-Patch.plist
 
 ### PlatformInfo
 MBP14,1
+*15,1 for sonoma
 
 ### UEFI/Quirks
 
